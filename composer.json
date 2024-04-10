@@ -1,0 +1,20 @@
+{
+    "name": "daviddevgt/invoice-app",
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "dompdf/dompdf": "^2.0",
+        "phpoffice/phpspreadsheet": "^2.0",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "InvoiceApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DavidDevGt",
+            "email": "josuedavidvl18@gmail.com"
+        }
+    ]
+}
